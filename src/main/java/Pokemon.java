@@ -18,6 +18,7 @@
  */
 public class Pokemon {
 
+
     /**
      * Number of hit points this Pokemon has.
      * <p>
@@ -26,12 +27,14 @@ public class Pokemon {
      */
     int hitPoints;
 
+
     /**
      * This Pokemon's attack level.
      * <p>
      * Users have up to 50 points to split between attack level and defense level.
      */
     int attackLevel;
+
 
     /**
      * This Pokemon's defense level.
@@ -40,20 +43,24 @@ public class Pokemon {
      */
     int defenseLevel;
 
+
     /**
      * This Pokemon's name.
      */
     String name;
+
 
     /**
      * A 6 sided dice used to calculate attack damage.
      */
     Dice d6;
 
+
     /**
      * A 20 sided dice used to calculate the attack and defense bonuses during an attack.
      */
     Dice d20;
+
 
     /**
      * Create a new Pokemon with default values.
